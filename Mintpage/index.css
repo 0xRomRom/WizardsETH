@@ -16,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: black;
+  background: linear-gradient(180deg, black, rgb(27, 27, 27)) !important;
   gap: 1.5rem;
 }
 
@@ -24,6 +24,17 @@ body {
   display: none !important;
 }
 
+.metamask {
+  width: 10rem;
+  height: 3rem;
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: white;
+  border: 2px solid white;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
 .metamask {
   width: 15rem;
   height: 3rem;
@@ -34,10 +45,6 @@ body {
   border-radius: 0.3rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-}
-.metamask:hover {
-  color: black;
-  background-color: white;
 }
 
 .mint-button {
