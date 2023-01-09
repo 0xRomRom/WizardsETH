@@ -17,7 +17,27 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: black;
-  gap: 1rem;
+  gap: 1.5rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.metamask {
+  width: 15rem;
+  height: 3rem;
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: white;
+  border: 2px solid white;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.metamask:hover {
+  color: black;
+  background-color: white;
 }
 
 .mint-button {
@@ -40,4 +60,19 @@ body {
 .user-acc {
   color: white;
   font-size: 1.5rem;
+}
+
+.greet {
+  color: rgb(202, 23, 23);
+  font-size: 1.5rem;
+}
+
+.cont {
+  position: relative;
+  width: 100vw;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
