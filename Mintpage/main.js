@@ -9,7 +9,7 @@ window.onload = () => {
 let account;
 let contractInstance;
 const ABI = contractABI;
-const CONTRACT = "0xe4d410eeAaB6597194223127D6c59b929f696aea";
+const CONTRACT = "0xac084F5db68ee0Ba80AeCA734DA9AFD128F864d7";
 
 const userWallet = document.querySelector(".user-acc");
 const mintButton = document.querySelector(".mint-button");
